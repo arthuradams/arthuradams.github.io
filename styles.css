@@ -2,6 +2,7 @@ body{
   font-family: Verdana, sans-serif;
 }
 
+/* AM: +1 condensing header selectors here. */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
@@ -22,13 +23,17 @@ img {
 }
 
 p {
+  /* AM: You need to specify units for CSS values that are not 0. */
   line-height: 1.2;
+  /* AM: If you want, you can set `margin-top` to 0 (no units). Doesn't change how your page is displayed though. */
   margin-top: 0em;
   margin-bottom: 2em;
 }
 
 /* The following are for the resume page. These should be moved to a separate
 file. */
+
+/* AM: Do `skill`, `employer` and `date` correspond to classes or IDs? If so, the selectors need to be written properly (e.g., `.skill` if it is a class). */
 
 skill {
   font-style: italic;
