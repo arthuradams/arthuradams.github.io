@@ -55,6 +55,28 @@ td h3 {
   text-align: right;
 }
 
-.date_range{
-  font-style: italic;  
+.date_range {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.employer {
+  font-size: 125%;
+  font-weight: bolder;
+}
+
+.jobtitle {
+  font-weight: bold;
+}
+
+.duties {
+  font-size: 90%;
+  padding-left: 5%;
+  text-indent: -5%;
+}
+
+.techs {
+  font-size: 90%;
+  padding-left: 5%;
+  text-indent: -5%;
 }
