@@ -8,7 +8,7 @@ ul.menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 10%;
+  width: 15%;
   height: 100%; /* Full height */
   position: fixed; /* Make it stick, even on scroll */
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
@@ -36,7 +36,7 @@ ul.menu li a:hover:not(.active) {
 
 .main {
   font-family: 'Poiret One', cursive;
-  margin-left:10%;
+  margin-left:15%;
   padding:1px 16px;
 }
 
@@ -53,30 +53,4 @@ td h2 {
 td h3 {
   font-size: 100%;
   text-align: right;
-}
-
-.date_range {
-  font-style: italic;
-  font-weight: bold;
-}
-
-.employer {
-  font-size: 125%;
-  font-weight: bolder;
-}
-
-.jobtitle {
-  font-weight: bold;
-}
-
-.duties {
-  font-size: 90%;
-  padding-left: 5%;
-  text-indent: -5%;
-}
-
-.techs {
-  font-size: 90%;
-  padding-left: 5%;
-  text-indent: -5%;
 }
