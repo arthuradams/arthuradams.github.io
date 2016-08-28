@@ -1,20 +1,21 @@
 $(document).ready(function(){
 
+    $("#core").load("intro.html");
 
-  console.log('Hello world');
+    $(".menuitem").on("click", function(){
 
-  $("#index").on("click", function(){
-      $("#core").load("intro.html");
-      console.log("Imdex");
-    }
-  )
+        var id = this.id;
 
-  $("#history").on("click", function(){
-      $("#core").html("<b>History!</b>");
-      console.log("History");
+        var filename = id.concat(".html");
 
-    }
-  )
+        $("#core").load(filename);
+      }
+    )
+
+    // $("#history").on("click", function(){
+    //     $("#core").html("history.html");
+    //   }
+    // )
 
 
 }

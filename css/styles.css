@@ -54,3 +54,52 @@ td h3 {
   font-size: 100%;
   text-align: right;
 }
+
+.employer {
+  font-size: 125%;
+  font-weight: bolder;
+}
+
+.date_range {
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.jobtitle {
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.duties {
+  font-size: 90%;
+  padding-left: 10%;
+  text-indent: -5%;
+}
+
+.techs {
+  font-size: 90%;
+  padding-left: 10%;
+  text-indent: -5%;
+}
+
+.school {
+  font-size: 125%;
+  font-weight: bolder;
+}
+
+.course {
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.date_range {
+  font-size: 90%;
+  padding-left: 10%;
+}
+
+.location {
+  font-size: 90%;
+  padding-left: 10%;
+}
