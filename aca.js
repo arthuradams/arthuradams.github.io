@@ -8,11 +8,11 @@ $(document).ready(function(){
 
           prev_id = id;
 
-          $(".".concat(prev_id)).removeClass( "active" );
+          $("#".concat(prev_id)).removeClass( "active" );
 
           id = this.id;
 
-          $(".".concat(id)).addClass( "active" );
+          $("#".concat(id)).addClass( "active" );
 
           filename = id.concat(".html");
 
