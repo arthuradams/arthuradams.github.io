@@ -4,6 +4,11 @@ body {
     margin: 0;
 }
 
+#portrait {
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
 ul.menu {
   list-style-type: none;
   margin: 0;
