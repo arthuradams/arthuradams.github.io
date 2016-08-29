@@ -4,7 +4,8 @@ $(document).ready(function(){
 
     $("#intro").addClass( "active" );
     $("#core").load("intro.html");
-
+    id = "intro";
+    
     $(".menuitem").on("click", function(){
           prev_id = id;
           $("#".concat(prev_id)).removeClass( "active" );
