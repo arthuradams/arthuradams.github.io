@@ -1,22 +1,23 @@
 $(document).ready(function(){
 
+    var prev_id, id, filename;
+
     $("#core").load("intro.html");
 
     $(".menuitem").on("click", function(){
 
-        var id = this.id;
+          prev_id = id;
 
-        var filename = id.concat(".html");
+          $(".".concat(prev_id)).removeClass( "active" );
 
-        $("#core").load(filename);
-      }
-    )
+          id = this.id;
 
-    // $("#history").on("click", function(){
-    //     $("#core").html("history.html");
-    //   }
-    // )
+          $(".".concat(id)).addClass( "active" );
 
+          filename = id.concat(".html");
 
-}
+          $("#core").load(filename);
+        }
+      )
+  }
 )
