@@ -1,2 +1,27 @@
-
-My Portfolio
+<table>
+  <tr><th colspan="2">A General Assemblage of Trivia</th></tr>
+  <tr>
+    <td>
+      <p>The project is an implementation of a multiple choice trivia game.  There's only four questions included, but since they're stored as a JavaScript hash, more questions can easily be added.</p>
+      <p>The implementation is in JavaScript and JQuery, alongside HTML and CSS.</p>
+      <p>To summarize how the project works, the questions are stored as a hash, consisting of</p>
+      <ol class="alphalist">
+        <li>the question itself</li>
+        <li>a list of answers, with one having a "correct" flag</li>
+        <li>a score for the question</li>
+        <li>an optional image to be displayed with the question</li>
+      </ol>
+      <p>The program goes through the list of questions in order. The order of answers is randomized each time, so the first answer one time might be the third another time.</p>
+      <p>It listens for a click on one of the answers. If the answer is correct, the score for the question is added to the user's score. If it's wrong, one point is subtracted, though the score cannot drop below zero.</p>
+      <p>Once the code reaches the last question, it repeats that question perpetually.</p>
+      <p>This could easily be made into a more serious quiz. More questions could be added.</p>
+      <p>A large increase in the number of questions would require a database of questions. I'd like to add that in the future, and also add things like allowing the user to select categories and difficulty. Beyond that, a database would allow persistent scoring with user logins.<p/>
+      <p>Still more details can be found in the project's <a href="https://github.com/arthuradams/not-jeopardy">README file</a>.</p>
+    </td>
+    <td rowspan="2"><img src="trivia.png"/></td>
+  </tr>
+  <tr>
+    <td><a href="http://arthuradams.github.io/not-jeopardy/">Live version of the game</a></td>
+  </tr>
+  
+</table>
