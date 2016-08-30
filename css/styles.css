@@ -109,6 +109,6 @@ td h3 {
   padding-left: 10%;
 }
 
-#alphalist {
+.alphalist {
   list-style-type: lower-alpha;
 }

@@ -27,13 +27,21 @@
   <tr>
     <td>
       <p>One of our assignments for the course was to explore an API of our choosing. One of our instructors suggested the API for <a href="http://ineedaprompt.com/">INeedAPrompt</a>, a website he created to generate random characters and situations.</p>
-      <p>I explored the site and its API, and found it amused me greatly. It reminded me of a old joke that you can take descriptions of two utterly bizarre characters, add "togethet, they're detectives!", and it creates the plot of a TV show. (TVTropes calls the concept <a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/TheyFightCrime">They Fight Crime</a>.</p>
-      <p></p>
+      <p>I explored the site and its API, and found it amused me greatly. It reminded me of an old joke that you can take descriptions of two utterly bizarre characters, add "togethet, they're detectives!", and it creates the plot of a TV show. (TVTropes calls the concept <a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/TheyFightCrime">They Fight Crime</a>.</p>
+      <p>The interface is very simple. There are ten pull-downs, each allowing the user to select one of the five types of items (adjective, noun, adverb, verb, location) the API returns.</p>
+      <p>Each time a selector is changed, the "plot description" in the top box regenerates. I realize that, from a user interface perspective, the automatic regeneration is annoying, to say the least. From a technical standpoint, though, getting it to work was a nice challenge. I would like to add a button that will allow the user to just press a seprate button to regenerate.</p>
+      <p>Eventually, I would like to fork the <a href="https://github.com/RobertAKARobin/inap-node">INeedAPrompt source code</a>, strip it down to just the core that generates the prompts, and rewrite it to male it my own. This serves several purposes:</p>
+      <ol class="alphalist">
+        <li>It allows me to keep working on, and learning from, a project that has brought my amusement. I'll probably convert it to a different language.</li>
+        <li>I won't be dedendent on a web site maintained by someone else to keep my project working.</li>i
+        <li>I will be able to host the application at a secure site. When I attempted to host it in my github.io space, I was unable to connect to the API, since it is hosted at a non-secure site.</p>
+      </ol>
     </td>
-    <td rowspan="2"><img src=""/></td>
+    <td rowspan="2"><img src="img/detectives.png"/></td>
   </tr>
   <tr>
-    <td><a href="">Live version of the game</a></td>
+    <td><p>This is currently not hosted anywhere, due to the issues with connecting to the API mentioned above.</p>
+        <p>To view it, download the source from the <a href="https://github.com/arthuradams/fun-with-apis">project github repo</a>, and view index.html in a browser.</p></td>
   </tr>
 
 </table>
