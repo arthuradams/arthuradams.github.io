@@ -1,7 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One';
 
 body {
-    margin: 0;
+    margin: 20px;
 }
 
 #portrait {
@@ -111,4 +111,8 @@ td h3 {
 
 .alphalist {
   list-style-type: lower-alpha;
+}
+
+.portfoliotable table, th, td {
+
 }

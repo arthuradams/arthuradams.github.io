@@ -5,7 +5,7 @@ $(document).ready(function(){
     $("#intro").addClass( "active" );
     $("#core").load("intro.html");
     id = "intro";
-    
+
     $(".menuitem").on("click", function(){
           prev_id = id;
           $("#".concat(prev_id)).removeClass( "active" );
@@ -15,5 +15,12 @@ $(document).ready(function(){
           $("#core").load(filename);
         }
       )
+    $(".portrait").hover(
+      function() {
+        $( this ).attr("src","img/arthur_color.png");
+      }, function() {
+        $( this ).attr("src","img/arthur.png");
+      }
+    );
   }
 )
