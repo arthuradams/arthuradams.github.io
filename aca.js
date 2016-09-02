@@ -14,7 +14,7 @@ $(document).ready(function(){
           filename = id.concat(".html");
           $("#core").load(filename);
         }
-      )
+      );
     $(".portrait").hover(
       function() {
         $( this ).attr("src","img/arthur_color.png");

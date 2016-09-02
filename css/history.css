@@ -1,0 +1,29 @@
+
+
+.employer {
+  font-size: 125%;
+  font-weight: bolder;
+}
+
+.date_range {
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.jobtitle {
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.duties {
+  font-size: 90%;
+  padding-left: 10%;
+  text-indent: -5%;
+}
+
+.techs {
+  font-size: 90%;
+  padding-left: 10%;
+  text-indent: -5%;
+}
