@@ -1,16 +1,16 @@
-.portfoliotable table, th, td {
+table.portfoliotable, th.portfoliotable, td.portfoliotable  {
   border-collapse: collapse;
   border: 2px solid black;
   padding: 15px;
 }
 
-.portfoliotable th {
+th.portfoliotable  {
   padding: 30px;
   text-align: center;
   font-size: 150%;
 }
 
-.portfoliotable th, td {
+th.portfoliotable, td.portfoliotable  {
   width: 50%;
 }
 
