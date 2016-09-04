@@ -12,7 +12,7 @@ $(document).ready(function(){
           id = this.id;
           $("#".concat(id)).addClass( "active" );
           filename = id.concat(".html");
-          $("#core").load(filename);
+          $("#core").hide().load(filename).fadeIn('500');
         }
       );
     $(".portrait").hover(
