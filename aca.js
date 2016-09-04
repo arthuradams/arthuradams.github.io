@@ -12,7 +12,8 @@ $(document).ready(function(){
           id = this.id;
           $("#".concat(id)).addClass( "active" );
           filename = id.concat(".html");
-          $("#core").hide().load(filename).fadeIn('500');
+          $("#core").fadeOut('1000');
+          $("#core").hide().load(filename).fadeIn('1000');
         }
       );
     $(".portrait").hover(
